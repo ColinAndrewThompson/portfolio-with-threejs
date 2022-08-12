@@ -54,9 +54,24 @@ section:nth-child(odd)
     font-size: 15px;
 }
 
+@media only screen and (max-width: 650px){
+    #sectionContact{
+        gap: 15px;
+        font-size: 10px;
+    }
+
+    #sectionContactBox{
+        scale: 0.7;
+    }
+
+    .webgl{
+        display: none;
+    }
+}
+
 #sectionContactBox{
     background-color: antiquewhite;
-    color: hotpink;
+    
     padding: 30px 60px;
     text-align: center;
     font-size: 15px;

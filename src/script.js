@@ -74,10 +74,6 @@ mesh2.position.x = -2
 mesh3.position.x = 2.5
 
 
-
-
-
-
 //lights
 const directionalLight = new THREE.DirectionalLight("#ffffff" , 1, )
 scene.add(directionalLight)
