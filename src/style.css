@@ -50,18 +50,21 @@ section:nth-child(odd)
 
 #sectionContact{
     justify-content: center;
-    gap: 90px;
+    gap: 70px;
     font-size: 15px;
+    height: 25vh;
 }
 
 @media only screen and (max-width: 650px){
     #sectionContact{
-        gap: 15px;
-        font-size: 10px;
+        gap: 0px;
+        font-size: 9px;
+        
     }
 
     #sectionContactBox{
         scale: 0.7;
+        
     }
 
     .webgl{
